@@ -42,19 +42,21 @@ main {
     left: 85%;
 
     height: 800px;
-    width: 150px;
+    width: 100px;
 }
 
 #redes-sociais img {
-    border: 1px solid black;
+    margin: 10px;
+    border: 2px solid black;
     border-radius: 50%;
-    max-width: 150px;
-    max-height: 110px;
+    max-width: 90px;
+    max-height: 90px;
 }
 
 #redes-sociais img:hover {
-    border: 1px solid black;
+    border: 3px solid white;
     transform: translate(-5%, -5%);
+    transition: transform 0.5s;
 }
 
 #tela {
