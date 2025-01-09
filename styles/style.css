@@ -58,12 +58,11 @@ main {
 }
 
 #tela {
-    background-color: purple;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     height: 480px;
-    width: 280px;
+    width: 269px;
 }
