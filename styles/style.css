@@ -36,12 +36,34 @@ main {
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
 
-section#redes-sociais {
-    background-color: purple;
+#redes-sociais {
     position: absolute;
     top: 3%;
     left: 85%;
 
     height: 800px;
     width: 150px;
+}
+
+#redes-sociais img {
+    border: 1px solid black;
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 110px;
+}
+
+#redes-sociais img:hover {
+    border: 1px solid black;
+    transform: translate(-5%, -5%);
+}
+
+#tela {
+    background-color: purple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 480px;
+    width: 280px;
 }
